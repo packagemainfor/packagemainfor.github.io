@@ -3,6 +3,9 @@ const data = {
     introduction: {
         title: "Welcome to Recall Theory",
         content: `
+        <p style="font-size: 2.5em;">
+    Go to <b>Technique Library</b> for actual application. 
+</p>
             <p>This site exists for one simple reason: learning shouldn’t feel harder than it needs to be.</p>
 
 <p>I built Recall Theory as a <strong>free, accessible resource</strong> to help people learn more effectively by understanding how memory actually works. Instead of relying on brute-force repetition or vague study advice, this project focuses on practical, evidence-backed ways to improve memorization and long-term retention.</p>
@@ -1203,3 +1206,4 @@ navLinks.forEach(link => {
 
 // Initial Render
 handleNavigation('introduction');
+
